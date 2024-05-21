@@ -9,11 +9,11 @@ for i in range(2):
             lower = baris.lower()
             kataSplit = lower.split()       
             if len(kataSplit) > 1 : 
-                print(kataSplit)
                 for i in kataSplit : 
                     kata.add(i)
-        print(kata)
     except FileNotFoundError:
         print("File Tidak Ditemukan")
         break
 
+if len(kata) > 0 : 
+    print(kata)
