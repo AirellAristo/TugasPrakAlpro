@@ -42,8 +42,8 @@ for values in daftar_aplikasi_list :
             count[app] = 1
         else : 
             count[app] += 1
-duaKategori = [aplikasi for aplikasi,x in count.items() if x == 1]
-print("Aplikasi Yang Muncul Pada 1 Kategori", duaKategori)
+satuKategori = [aplikasi for aplikasi,x in count.items() if x == 1]
+print("Aplikasi Yang Muncul Pada 1 Kategori", satuKategori)
 
 if n > 2 :
     count = {}
