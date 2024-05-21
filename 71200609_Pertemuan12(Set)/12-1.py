@@ -1,3 +1,5 @@
+#Jawaban Dimulai Pada baris 36
+
 n = int(input('Masukkan jumlah kategori: '))
 
 data_aplikasi = {}
@@ -33,7 +35,6 @@ for i in range(1, len(daftar_aplikasi_list)):
 
 #Latihan 12.1
 
-# Gunakan Symetric Difference
 count = {}
 for values in daftar_aplikasi_list : 
     for app in values : 
